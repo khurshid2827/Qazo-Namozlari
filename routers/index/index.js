@@ -1,0 +1,2 @@
+require("../get")
+require("../post")
