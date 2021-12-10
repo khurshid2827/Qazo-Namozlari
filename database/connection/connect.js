@@ -1,6 +1,7 @@
 const mongoose =require("mongoose")
 mongoose.Promise=global.Promise;
-mongoose.connect("mongodb+srv://khurshid:khurshid2827@khurshidcluster.ae2lf.mongodb.net/QazoNamozlar?retryWrites=true&w=majority",{
+const {config} =require("../../config/config")
+mongoose.connect(config.MongoDB_URL,{
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
