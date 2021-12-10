@@ -1,13 +1,13 @@
 {
   "name": "qazonamozlari",
   "version": "1.0.0",
-  "description": "",
+  "description": "This app is created by Khurshid developer",
   "main": "app.js",
   "scripts": {
     "start": "node ./app/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "khurshid ismoilov",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
