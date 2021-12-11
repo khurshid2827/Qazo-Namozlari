@@ -1,6 +1,5 @@
 const mongoose =require("mongoose")
 mongoose.Promise=global.Promise;
-const {config} =require("../../config/config")
 mongoose.connect(process.env.DATABASE_URL,{
     useNewUrlParser: true,
     useUnifiedTopology: true
